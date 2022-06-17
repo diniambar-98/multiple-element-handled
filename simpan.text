@@ -1,0 +1,19 @@
+let contoh = Array.from(document.getElementsByClassName('_1__lJ'))
+const arr = contoh.map( element => element.innerText )
+const a = arr.filter(checkTitle);
+
+function checkTitle(Title) {
+  return Title == 'Popular projects';
+}
+
+console.log(a)
+
+cost func = (element, text) => {
+let contoh = Array.from(document.getElementsByClassName(element))
+const arr = contoh.map( element => element.innerText )
+const a = arr.filter(checkTitle);
+
+function checkTitle(Title) {
+  return Title == text;
+}
+}
