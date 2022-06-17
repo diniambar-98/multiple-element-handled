@@ -3,7 +3,6 @@ Feature: multiple-classname  handled
             Given homePage Website
         
         Scenario: Select text from element
-                When User get the element
                 Then User can filter the element
                 
        

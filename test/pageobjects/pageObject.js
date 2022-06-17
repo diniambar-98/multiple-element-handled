@@ -12,7 +12,7 @@ class Attr extends Page {
   }
 
   filterElement() {
-    super.filterMultipleElement(this.className, 'Popular projects')
+    super.filterMultipleElement('Popular projects')
   }
 }
 
